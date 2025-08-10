@@ -1,0 +1,43 @@
+# Ignorar build e objetos dentro da pasta csharp
+/Csharp/bin/
+/Csharp/obj/
+/Csharp/artifacts/
+
+# Ignorar configurações VS Code dentro da pasta csharp
+/Csharp/.vscode/
+
+# Ignorar arquivos de usuário do Visual Studio dentro de csharp
+/Csharp/*.user
+/Csharp/*.suo
+/Csharp/*.userosscache
+/Csharp/*.sln.docstates
+
+# Ignorar logs e temporários dentro de csharp
+/Csharp/*.log
+/Csharp/*.tmp
+/Csharp/*.temp
+
+# NuGet packages dentro de csharp
+/Csharp/*.nupkg
+/Csharp/packages/
+
+# Test results dentro de csharp
+/Csharp/TestResults/
+/Csharp/*.trx
+
+# Rider IDE files dentro de csharp
+/Csharp/.idea/
+
+# ReSharper dentro de csharp
+/Csharp/_ReSharper*/
+/Csharp/*.DotSettings.user
+
+# Coverage files dentro de csharp
+/Csharp/*.coverage
+/Csharp/*.coveragexml
+
+# Arquivos do sistema dentro de csharp
+/Csharp/.DS_Store
+/Csharp/Thumbs.db
+Backend.sln
+.editorconfig
