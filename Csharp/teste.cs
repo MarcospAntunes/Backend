@@ -1,6 +1,8 @@
-﻿namespace Csharp.ProgramCs
+using Csharp.ProgramCs;
+
+namespace Csharp.testeCs
 {
-  class Program
+  class Teste
   {
     static void Main(string[] args)
     {
