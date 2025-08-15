@@ -4,7 +4,7 @@ namespace Csharp.testeCs
 {
   class Teste
   {
-    static void Main(string[] args)
+    static void teste(string[] args)
     {
       
     }
