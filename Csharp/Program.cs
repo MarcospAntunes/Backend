@@ -25,6 +25,9 @@
       String[] nomes = new string[2];
       nomes[0] = "Marcos";
       nomes[1] = "Fernanda";
+
+      String[] teste = ["Axel", "Lucas"]; // mesma coisa
+      const String souImutavel = "Pai ta on!"; 
     }
   }
 }
