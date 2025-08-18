@@ -21,6 +21,10 @@
       double saldo = 3432.32;
       saldo = saldo / 2;
       Console.Write("Saldo atual: " + saldo);
+
+      String[] nomes = new string[2];
+      nomes[0] = "Marcos";
+      nomes[1] = "Fernanda";
     }
   }
 }
