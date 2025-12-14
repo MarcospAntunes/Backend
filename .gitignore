@@ -41,3 +41,53 @@
 /Csharp/Thumbs.db
 Backend.sln
 .editorconfig
+
+# ===============================
+# Unity generated folders
+# ===============================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# ===============================
+# Asset meta data should be kept
+# ===============================
+# (NÃO ignore arquivos .meta)
+# *.meta
+
+# ===============================
+# Visual Studio / Rider / VSCode
+# ===============================
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Rider
+.idea/
+
+# ===============================
+# Unity3D generated files
+# ===============================
+*.unityproj
+*.tmp
+*.log
+*.stackdump
+
+# ===============================
+# Builds / Exportações
+# ===============================
+*.apk
+*.aab
+*.exe
+*.app
