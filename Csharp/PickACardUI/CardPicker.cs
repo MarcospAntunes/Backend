@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace PickACardUI
 {
+  /// <summary>
+  /// Escola um número de cartas e retorne-as
+  /// </summary>
   internal class CardPicker
   {
 
     static Random random = new Random();
-
+    /// <summary>
+    /// Escolha um número de cartas e retorne-as
+    /// </summary>
+    /// <param name="numberOfCards">O número de cartas para pegar.</param>
+    /// <returns>Um array de strings que contém os nomes das cartas.</returns>
     public static string[] PickSomeCards(int numberOfCards)
     {
       string[] pickedCards = new String[numberOfCards];

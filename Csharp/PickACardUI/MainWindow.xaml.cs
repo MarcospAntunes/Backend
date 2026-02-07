@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace PickACardUI
 {
-    /// <summary>
-    /// Interação lógica para MainWindow.xam
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
