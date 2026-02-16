@@ -23,4 +23,6 @@ char myChar = 'x';
 //myString = (string)myChar; // Não se pode converter char em String
 long myLong = (long)myInt;
 decimal myDecimal = (decimal)myLong;
+
+myInt = myChar;
 myString = myString + myInt + myByte + myDouble + myChar;
