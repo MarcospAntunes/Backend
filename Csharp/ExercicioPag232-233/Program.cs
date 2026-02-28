@@ -9,35 +9,35 @@ class Program
     {
       Console.WriteLine("Press 1 for Lloyd, 2 for Lucinda, 3 to swap or any key to exit.");
       char keyPressed = Console.ReadKey(true).KeyChar;
+
+      Console.WriteLine("You pressed " + keyPressed);
       if (keyPressed == '1')
       {
-        Console.WriteLine("You pressed 1");
         Console.WriteLine("Calling lloyd.WoAmI()");
         lloyd.WhoAmI();
       }
       else if (keyPressed == '2')
       {
-        Console.WriteLine("You pressed 2");
         Console.WriteLine("Calling lucinda.WoAmI()");
         lucinda.WhoAmI();
       }
       else if (keyPressed == '3')
       {
-        Console.WriteLine("You pressed 3");
-
         Elephant temp = lucinda;
         lucinda = lloyd;
         lloyd = temp;
 
         Console.WriteLine("References have been swapped");
       }
+      else if(keyPressed == '4')
+      {
+        lucinda.SpeakTo(lloyd, "Hi, Lloyd!");
+      }
       else
       {
         return;
       }
     }
-
-    
   }
 
   class Elephant
@@ -55,6 +55,17 @@ class Program
     {
       Console.WriteLine("My name is " + this.Name);
       Console.WriteLine("My ears are " + this.EarSize + " inches tall");
+    }
+
+    public void HearMessage(string message, Elephant whoSaidIt)
+    {
+      Console.WriteLine(Name + " heard a message");
+      Console.WriteLine(whoSaidIt.Name + " said this: " + message);
+    }
+
+    public void SpeakTo(Elephant whoTalkTo, string message)
+    {
+      whoTalkTo.HearMessage(message, this);
     }
 
     public string getName()
